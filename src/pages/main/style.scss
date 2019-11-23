@@ -1,0 +1,39 @@
+.table-loader {
+    width: 1.8rem;
+    height: 1.8rem;
+
+    &::before {
+        width: 1.8rem;
+        height: 1.8rem;
+        top: 70%;
+        left: 70%;
+    }
+    &::after {
+        width: 1.8rem;
+        height: 1.8rem;
+        top: 70%;
+        left: 70%;
+    }
+}
+
+.table-loading {
+    margin-top: 10px;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.badge {
+    padding: 0.5em 0.7em;
+    font-size: 80%;
+}
+
+.table {
+    margin-bottom: 0;
+    padding: 30px !important;
+}
+
+.table-card {
+    padding: 15px;
+}

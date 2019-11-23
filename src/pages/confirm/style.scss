@@ -1,0 +1,55 @@
+.confirm-card {
+    padding: 15px;
+
+    .document-image {
+        max-width: 300px;
+        width: 100%;
+    }
+}
+
+.confirm-loading {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+
+    .confirm-loader {
+        width: 1.8rem;
+        height: 1.8rem;
+
+        &::before {
+            width: 1.8rem;
+            height: 1.8rem;
+            top: 70%;
+            left: 70%;
+        }
+        &::after {
+            width: 1.8rem;
+            height: 1.8rem;
+            top: 70%;
+            left: 70%;
+        }
+    }
+}
+
+.media-object {
+    max-width: 100px;
+    width: 100%;
+}
+
+.confirm-actions {
+    button:nth-child(2) {
+        margin-left: 10px;
+    }
+}
+
+.comment-form {
+    margin-top: 15px;
+    max-width: 500px;
+}
+
+.reject-alert {
+    margin-bottom: 0;
+    margin-top: 20px;
+}
