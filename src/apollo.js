@@ -1,6 +1,6 @@
 import ApolloClient from 'apollo-boost'
 
-export const host = 'http://192.168.31.184:1119'
+export const host = 'http://185.125.218.12:1119'
 
 const GraphQL = `${host}/graphql`
 
